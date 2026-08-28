@@ -1,0 +1,8 @@
+# NU baga secrete sau dependinte in imaginea Docker
+.env
+.env.*
+!.env.example
+node_modules
+.git
+*.log
+npm-debug.log*

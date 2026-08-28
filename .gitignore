@@ -1,0 +1,15 @@
+# Secrete — NU se comit niciodata (contin parola DB Supabase + salturi)
+.env
+.env.*
+!.env.example
+
+# Dependinte (se reinstaleaza la deploy)
+node_modules/
+
+# Loguri / temp
+*.log
+npm-debug.log*
+.DS_Store
+
+# Admin tools local config (contine ADMIN_API_KEY) — NU se comite
+admin-tools/_config.bat
